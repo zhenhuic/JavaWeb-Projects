@@ -1,0 +1,14 @@
+package com.itheima.service;
+
+/**
+ * 账户业务层的接口
+ *
+ * XML的配置：
+ * <bean id="accountService" class="com.itheima.service.impl.AccountServiceImpl"/>
+ */
+public interface IAccountService {
+    /*
+      模拟保存账户
+     */
+    void saveAccount();
+}
